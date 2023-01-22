@@ -1,22 +1,14 @@
 {
   "name": "typescript-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nguyentrn/typescript-starter.git"
-  },
+  "type": "module",
   "author": "nguyentrn",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nguyentrn/typescript-starter/issues"
-  },
-  "homepage": "https://github.com/nguyentrn/typescript-starter#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.18",
@@ -33,7 +25,9 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
-  },
-  "type": "module"
+    "axios": "^1.2.3",
+    "knex": "^2.4.2",
+    "lodash": "^4.17.21",
+    "pg": "^8.8.0"
+  }
 }
